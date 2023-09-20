@@ -1,0 +1,17 @@
+Source: bash
+Section: unknown
+Priority: optional
+Maintainer: Jackson Hansen <madjack971@bsdmail.com>
+Build-Depends: debhelper-compat (= 13)
+Standards-Version: 4.5.1
+Homepage: http://tiswww.case.edu/php/chet/bash/bashtop.html
+Rules-Requires-Root: no
+Vcs-Git: https://github.com/maddjack2020/bash.git
+Vcs-Browser: https://github.com/maddjack2020/bash
+
+Package: bash
+Architecture: any
+Multi-Arch: foreign
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: auto-generated package by debmake
+ The Bash package contains the Bourne-Again Shell.
